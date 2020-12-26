@@ -1,0 +1,14 @@
+@Host = http://127.0.0.1:10800
+
+POST {{Host}}/minmax HTTP/1.1
+Content-Type: application/json
+
+[5,7,9,12,0,-1,7,12]
+
+###
+
+GET {{Host}}/string/meow/qwewrsdhfisdfmeowwqerewf HTTP/1.1
+
+###
+
+GET {{Host}}/bracket/()))) HTTP/1.1
