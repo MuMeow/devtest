@@ -6,7 +6,7 @@ POST:{HOST}/minmax
 BODY: {ArrayOfNumber}
 
 ### for String check Booleans and Conditionals
-PATH:{HOST}/string/{conditionArray}/{message}
+GET:{HOST}/string/{conditionArray}/{message}
 
 ### for bracket check
-PATH:{HOST}/bracket/{bracketMessage}
+GET:{HOST}/bracket/{bracketMessage}
